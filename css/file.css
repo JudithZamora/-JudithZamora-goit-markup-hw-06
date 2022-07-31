@@ -1,0 +1,327 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    margin: auto;
+    min-width: 100vh;
+    min-height: 100vh;
+}  
+nav{
+    margin: auto;
+    height: 40px;
+    padding-top: 24px;
+    padding-bottom: 25px;
+    background-color: #fff;
+    text-decoration: none;
+}
+#webstudio{
+    margin: auto;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+    padding-left: 120px;
+}
+nav a{
+    margin: auto;
+    text-decoration: none;
+    display: inline;
+    padding-left: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #212121; 
+}
+nav .telymail{
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 358px;
+}
+.telymail div{
+    color: #757575;
+    position: absolute;
+    display: inline-flex;
+    margin-left: 25px;
+    
+}
+.telymail a{
+    color: #757575;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 2%;
+}
+
+
+/* mouse over link */
+nav :hover{
+    color: #2196F3;
+}
+header div :hover{
+color: #2196F3;
+}
+ 
+h4{
+    font-family: 'Roboto', sans-serif;
+    font-size: medium;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+    color: #212121;
+    padding-left: 24px; 
+    margin-top: 20px;
+    margin-bottom: 4px;
+}
+span{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03px;
+    color: #757575;
+    padding-left: 24px;
+    margin-bottom: 20px;
+}
+#buttons{
+    padding-top: 106px;
+    padding-bottom: 50px;
+    background-color: #fff;
+}
+/* mouse over link */
+button:hover{
+    background-color: #2196F3;
+    color: #fff;
+}
+ul li{
+    display: inline;
+}
+/* costum buttos */
+button{
+    background-color: #F5F4FA;
+    border-radius: 4px;
+    border-color: #F5F4FA;
+    padding: 8px 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: medium;  
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.03em;color: #212121;
+    background-color: #F5F4FA;
+} 
+.botonall{
+    margin-left: 397px;
+}
+.boton{
+    margin-left: 8px;
+}
+
+/* img section */
+.img{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 170px;
+    margin-bottom: 94px;
+}
+.containner{
+    margin-right: 30px;
+    margin-bottom: 30px;
+    width: 370px;
+    height: 404px;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+.containner img{
+    width: 370px;
+    height: 294px;
+}
+/* blue banner */
+.containner .overlay{
+    position: absolute;
+    top: 323px;
+    width: 370px;
+    height: 294px;
+    opacity: 0;
+}
+/* text in banner*/ 
+.text-lay{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    justify-content: center;
+    top: 320px;
+    width: 370px;
+    height: 294px;
+    opacity: 0;
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: left;
+    letter-spacing: 3%;
+}
+.text-lay p{
+    margin-left: 24px
+}
+/* hover blue banner */
+.containner:hover .overlay {
+    opacity: 0.8;
+    background-color: #2196F3;
+    transition: 1s;
+}
+.containner:hover .text-lay{
+    opacity: 1;
+    transition: 1s;
+}/* end hover blue banner */
+.containner h4{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 36px;
+    text-align: left;
+    letter-spacing: 6%;
+    color: #212121;
+}
+.containner span{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 38px;
+    text-align: left;
+    letter-spacing: 3%;
+    color: #757575;
+}
+/* footer */
+.social-red .circle div:hover {
+    background-color: #2196F3;
+}
+.footer-container{
+    background-color: #2F303A;
+    Height: 252px;
+    min-width: 100vh; 
+}
+/* webstudio */
+.contacto{
+    display: inline-block;
+    margin-left: 149px;
+    margin-top: 60px;
+}
+.footer-container a{
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+}
+.footer-container address{
+    color: #ececec;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 00.03em;
+    color: #fff;
+    margin-top: 20px;
+}
+/* redes sociales */
+.social-red{
+    position: absolute;
+    display: inline-block;
+    margin-top: 75px;
+    margin-left: 70px;
+    text-decoration: none;
+}
+.social-red h6{
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 3%;
+    color: #fff;
+}
+.social-red .circle div{
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    width: 44px;
+    height: 44px;
+    border-radius: 50px;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin-right: 10px;
+}
+.social-red a{
+    position: absolute;
+    margin-top: 28px;
+    color: #fff;
+}
+.icon-instagram{
+    margin-left: 9px;
+}
+.icon-twitter{
+    margin-left: 9px;
+}
+.icon-facebook{
+    margin-left: 8px;
+}
+.icon-linkedin2{
+    margin-left: 8px;
+}
+/* formulario */
+.formulario{
+    position: absolute;
+    display: inline-block;
+    margin-top: 55px;
+    margin-left: 380px;
+}
+.formulario label{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 3%;
+    color: #FFFFFF;
+}
+.formulario input{
+    width: 358px;
+    height: 50px;
+    border-radius: 4px;
+    padding-left: 16px;
+    border-color: rgba(0, 0, 0, 0.15);
+}/* button text and color */
+.button-send{
+    position: absolute;
+    display: inline-block;
+    margin-top: 111px;
+    margin-left: 770px;
+    width: 200px;
+    height: 50px;
+}
+.send{
+    width: 200px;
+    height: 50px;
+    border-radius: 4px;
+    border-color: #2196F3;
+    background-color: #2196F3;
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 6%;
+}
+.input-icon{
+    position: absolute;
+    margin-top: 13px;
+    margin-left: 150px;
+}
+
